@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/city_bg"
+    >
+    <LinearLayout
+        android:id="@+id/ll_header"
+        android:layout_width="match_parent"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="10dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="18dp"
+            android:id="@+id/back"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="5dp"
+            android:src="@drawable/back_icon" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="20dp"
+            android:text="PICK UP"
+            android:textColor="@color/textcolor"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+    </LinearLayout>
+    <ImageView
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:src="@drawable/passengers"
+        android:layout_weight=".25"
+        android:scaleType="centerCrop"
+        android:layout_height="0dp" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_horizontal"
+        android:layout_margin="10dp"
+        android:textSize="16dp"
+        android:text="So how many ZOZO Car\npassengers can you take?"
+        android:textColor="#000"
+        android:layout_height="wrap_content" />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:orientation="vertical"
+        android:layout_weight="0.1"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:gravity="center_horizontal"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:background="@drawable/add_passenger_bg"
+            android:layout_width="wrap_content"
+            android:orientation="horizontal"
+            android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/iv_sub"
+            android:paddingBottom="12dp"
+            android:paddingTop="12dp"
+android:src="@drawable/ic_asset_28"
+            android:paddingLeft="25dp"
+            android:layout_marginLeft="10dp"
+            android:layout_width="wrap_content"
+            android:layout_marginRight="20dp"
+            android:text="YEAH, SURE!"
+
+            android:textAllCaps="true"
+            android:layout_centerVertical="true"
+            android:textStyle="bold"
+            android:gravity="center_vertical"
+            android:textColor="#ffffff"
+            android:textSize="14dp"
+            android:layout_centerHorizontal="true"
+            android:layout_height="wrap_content" />
+
+
+
+        <TextView
+            android:layout_marginLeft="10dp"
+            android:layout_width="wrap_content"
+            android:layout_marginRight="10dp"
+            android:text="2"
+            android:id="@+id/tv_no_pass"
+            android:layout_gravity="center_vertical"
+            android:textStyle="bold"
+            android:textAllCaps="true"
+            android:gravity="center_vertical"
+            android:textColor="@color/colorPrimary"
+            android:textSize="18dp"
+
+            android:layout_height="wrap_content" />
+            <ImageView
+                android:paddingBottom="12dp"
+                android:paddingTop="12dp"
+                android:src="@drawable/ic_asset_27"
+android:id="@+id/iv_add"
+                android:paddingRight="25dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="20dp"
+                android:layout_width="wrap_content"
+
+
+                android:text="YEAH, SURE!"
+                android:textAllCaps="true"
+                android:layout_centerVertical="true"
+                android:textStyle="bold"
+                android:gravity="center_vertical"
+                android:textColor="#ffffff"
+                android:textSize="14dp"
+                android:layout_centerHorizontal="true"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+<ImageView
+android:id="@+id/iv_proceed"
+    android:layout_marginTop="40dp"
+    android:layout_width="40dp"
+    android:src="@drawable/ic_asset_29"
+    android:layout_height="40dp" />
+    </LinearLayout>
+</LinearLayout>

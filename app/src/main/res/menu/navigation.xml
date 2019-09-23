@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_ride"
+        android:icon="@drawable/ic_ride"
+        android:title="@string/title_home" />
+    <item
+        android:id="@+id/nav_search_ride"
+        android:icon="@drawable/search"
+        android:title="@string/title_dashboard" />
+    <item
+        android:id="@+id/nav_post_ride"
+        android:icon="@drawable/offer_ride"
+        android:title="@string/title_notifications" />
+    <item
+        android:id="@+id/nav_notification"
+        android:icon="@drawable/ic_chat"
+        android:title="@string/title_notifications" />
+    <item
+        android:title="Account"
+        android:id="@+id/nav_user"
+        android:icon="@drawable/user_account"/>
+</menu>

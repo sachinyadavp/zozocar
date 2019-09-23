@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="0.3"
+
+                    android:orientation="vertical">
+                    <fragment
+                        android:id="@+id/fragment"
+                        android:name="com.google.android.gms.maps.SupportMapFragment"
+                        android:layout_width="match_parent"
+                        android:layout_height="400dp"
+                        android:layout_alignParentBottom="true"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_weight="0.00"
+                        tools:layout_editor_absoluteX="8dp"
+                        tools:layout_editor_absoluteY="8dp" />
+
+                </LinearLayout>
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="0.5">
+                    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+
+
+                        >
+                        <LinearLayout
+                            android:background="@drawable/preference_bg"
+                            android:id="@+id/ll_main"
+                            android:layout_width="match_parent"
+
+
+                            android:layout_height="250dp"
+
+
+
+
+                            android:orientation="vertical"
+
+
+
+                            >
+                            <LinearLayout
+                                android:layout_width="match_parent"
+
+
+                                android:layout_height="wrap_content"
+
+
+                                android:layout_marginTop="10dp"
+                                android:layout_marginRight="10dp"
+                                android:orientation="horizontal"
+
+
+
+                                >
+                                <ImageView
+                                    android:layout_marginTop="10dp"
+
+                                    android:layout_width="0dp"
+                                    android:paddingTop="2dp"
+                                    android:layout_marginBottom="30dp"
+
+                                    android:src="@drawable/ic_location"
+                                    android:layout_weight="0.1"
+                                    android:layout_height="match_parent" />
+
+                                <LinearLayout
+                                    android:layout_marginTop="10dp"
+                                    android:layout_marginBottom="30dp"
+                                    android:layout_width="0dp"
+                                    android:layout_marginRight="10dp"
+                                    android:layout_height="match_parent"
+                                    android:layout_weight="0.9"
+                                    android:padding="0dp"
+                                    android:orientation="vertical">
+                                    <TextView
+                                        android:layout_width="match_parent"
+                                        android:lines="1"
+                                        android:padding="0dp"
+                                        android:textSize="14dp"
+                                        android:text="SCO-58, Civil Lines, Sector-15, Gurugram, Haryana 122001"
+                                        android:ellipsize="end"
+                                        android:layout_height="wrap_content" />
+                                    <TextView
+                                        android:layout_marginTop="20dp"
+                                        android:layout_width="match_parent"
+                                        android:lines="1"
+                                        android:textSize="12dp"
+                                        android:text="10 Anson Road #27-15 Int. Plaza Singapore 079903"
+                                        android:ellipsize="end"
+                                        android:layout_height="wrap_content" />
+                                </LinearLayout>
+                            </LinearLayout>
+                            <RelativeLayout
+                                android:layout_width="match_parent"
+                                android:orientation="horizontal"
+                                android:layout_marginLeft="10dp"
+                                android:layout_height="wrap_content">
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:lines="1"
+                                    android:padding="0dp"
+                                    android:textSize="14dp"
+                                    android:gravity="center_vertical"
+                                    android:text="3 Seats available"
+                                    android:ellipsize="end"
+                                    android:layout_centerVertical="true"
+
+                                    android:layout_height="wrap_content" />
+                                <TextView
+                                    android:layout_alignParentRight="true"
+                                    android:paddingBottom="10dp"
+                                    android:paddingTop="10dp"
+                                    android:paddingLeft="20dp"
+                                    android:paddingRight="20dp"
+                                    android:background="@drawable/preference_bg"
+                                    android:layout_marginLeft="10dp"
+                                    android:layout_width="wrap_content"
+                                    android:layout_marginRight="20dp"
+                                    android:text="200"
+                                    android:textAllCaps="true"
+                                    android:layout_centerVertical="true"
+                                    android:textStyle="bold"
+                                    android:gravity="center_vertical"
+                                    android:textColor="#000"
+                                    android:textSize="10dp"
+                                    android:layout_centerHorizontal="true"
+                                    android:layout_height="wrap_content" />
+
+                            </RelativeLayout>
+                            <RelativeLayout
+
+                                android:layout_width="match_parent"
+                                android:orientation="horizontal"
+                                android:layout_marginLeft="10dp"
+                                android:layout_height="wrap_content">
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:lines="1"
+                                    android:padding="0dp"
+                                    android:textSize="14dp"
+                                    android:gravity="center_vertical"
+                                    android:text="View Profile"
+                                    android:ellipsize="end"
+                                    android:layout_centerVertical="true"
+
+                                    android:layout_height="wrap_content" />
+                                <ImageView
+                                    android:src="@drawable/user_img"
+                                    android:layout_width="60dp"
+                                    android:layout_marginRight="10dp"
+                                    android:layout_alignParentRight="true"
+                                    android:layout_height="60dp" />
+
+                            </RelativeLayout>
+
+
+                        </LinearLayout>
+
+
+                        <LinearLayout
+                            android:layout_gravity="center_vertical"
+                            android:layout_centerHorizontal="true"
+                            android:gravity="center_vertical"
+
+                            android:elevation="20dp"
+
+                            android:layout_marginTop="220dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="60dp"
+
+
+
+
+                            android:orientation="horizontal"
+                            android:text=" Last is on top">
+
+                            <TextView
+                                android:paddingBottom="10dp"
+                                android:paddingTop="10dp"
+                                android:paddingLeft="20dp"
+                                android:paddingRight="20dp"
+                                android:background="@drawable/preference_bg"
+                                android:layout_marginLeft="10dp"
+                                android:layout_width="wrap_content"
+                                android:layout_marginRight="20dp"
+                                android:text="Wed. 31 Jul - 08:00"
+                                android:textAllCaps="true"
+                                android:layout_centerVertical="true"
+                                android:textStyle="bold"
+                                android:gravity="center_vertical"
+                                android:textColor="#000"
+                                android:textSize="10dp"
+                                android:layout_centerHorizontal="true"
+                                android:layout_height="wrap_content" />
+                            <TextView
+                                android:layout_marginLeft="2dp"
+                                android:paddingBottom="10dp"
+                                android:paddingTop="10dp"
+                                android:paddingLeft="20dp"
+                                android:paddingRight="20dp"
+                                android:background="@drawable/preference_bg"
+                                android:layout_width="wrap_content"
+
+                                android:text="Maruti Swift (Black)"
+                                android:layout_centerHorizontal="true"
+
+                                android:layout_centerVertical="true"
+                                android:textStyle="bold"
+                                android:textAllCaps="true"
+                                android:gravity="center_vertical"
+                                android:textColor="#000"
+                                android:textSize="10dp"
+
+                                android:layout_height="wrap_content" />
+
+
+                        </LinearLayout>
+
+
+
+                    </RelativeLayout>
+                    <TextView
+                      android:layout_alignParentBottom="true"
+                      android:layout_centerHorizontal="true"
+                        android:layout_marginBottom="30dp"
+                        android:paddingBottom="10dp"
+                        android:paddingTop="10dp"
+                        android:paddingLeft="55dp"
+                        android:paddingRight="55dp"
+                        android:background="@drawable/action_bg"
+                        android:layout_marginLeft="10dp"
+                        android:layout_width="wrap_content"
+                        android:layout_marginRight="20dp"
+                        android:text="Ok"
+                        android:textAllCaps="true"
+
+                        android:textStyle="bold"
+                        android:gravity="center_vertical"
+                        android:textColor="#fff"
+                        android:textSize="20dp"
+
+                        android:layout_height="wrap_content" />
+                </RelativeLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="300dp"
+               android:layout_centerVertical="true"
+                android:layout_gravity="center_vertical"
+                android:layout_marginRight="10dp"
+
+
+                android:orientation="vertical">
+
+
+
+
+
+            </LinearLayout>
+        </RelativeLayout>
+
+    </LinearLayout>
+</LinearLayout>
